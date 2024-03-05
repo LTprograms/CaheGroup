@@ -1,0 +1,323 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    background-color: rgb(31, 58, 119);
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#main-header li a {
+    border-bottom: 1px solid #ffcc0000;
+    margin: 0 1rem;
+    transition: all ease-in-out .2s;
+}
+#main-header li a:hover {
+    border-bottom: 1px solid #ffcc00;
+    text-decoration: none;
+}
+.logo {
+    font-size: 1.5rem;
+}
+
+
+/* Estilos para los cuadrados */
+#square-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.square {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.square h3 {
+    color: #333;
+}
+
+.square p {
+    color: #555;
+}
+
+.square a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffcc00;
+    transition: color 0.3s ease;
+}
+p {
+    text-align: justify;
+}
+.square a:hover {
+    color: #333;
+}
+.sobre-nosotros-container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+ul li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+ul li i {
+    margin-right: 10px;
+    color: #007bff;
+    font-size: 1.2em;
+}
+
+.equipo-imagenes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.equipo-imagenes img {
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.estadistica {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.estadistica .numero {
+    font-size: 2em;
+    color: #007bff;
+}
+/* Estilos para la sección de cursos */
+.cursos-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para cada curso */
+.curso {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.curso img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.curso h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.curso p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.boton-ver-mas {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.boton-ver-mas:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la sección de biblioteca */
+.biblioteca-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para cada libro */
+.libro {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.libro:hover {
+    transform: scale(1.02);
+}
+
+.libro img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.libro:hover img {
+    transform: scale(1.1);
+}
+
+.libro h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.libro:hover h3 {
+    color: #0056b3;
+}
+
+.libro p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.boton-descargar {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.boton-descargar:hover {
+    background-color: #0056b3;
+}
+
+
+.mi-modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1000;
+}
+
+#myModal .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    width: 50%;
+}
+
+#cerrarModal {
+    color: #aaa;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#comenzarYa{
+    background-color: #0056b3;
+    border-radius: 16px;
+    border: 0;
+    color: white;
+    transition: all ease-in-out .2s;
+} #comenzarYa:hover {
+    background-color: #0b62be;
+}
+
+#timer-bar {
+    width: 100%;
+    height: 80px;
+    margin: 1rem 0;
+    background-color: #ccc;
+    border-radius: 2rem;
+    position: relative;
+}
+
+#progress-bar {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: #0056b3;
+}
+
+#timer-circle {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid #0056b3;
+    background-color: white;
+    color: #0056b3;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

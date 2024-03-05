@@ -1,0 +1,12 @@
+
+form p {
+    display: flex;
+    align-items: center;
+}
+form p label {
+    width: 100px;
+}
+form p input {
+    padding: .3rem;
+    width: 400px;
+}

@@ -1,0 +1,37 @@
+:root {
+    --blueMF: #3a96c7;
+    --dark-blueMF: #297fad;
+    --grayMF: #999b96;
+}
+
+.header .nav-item .nav-link {
+    color: var(--blueMF);
+    font-weight: bold;
+}
+
+.text-blue { color: var(--blueMF); }
+.text-dark-blue { color: var(--dark-blueMF); }
+.text-gray { color: var(--grayMF); }
+
+.bg-blue { background-color: var(--blueMF); }
+.bg-gray { background-color: var(--grayMF); }
+
+.text-justify { text-align: justify; }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined.fs-big {
+    font-size: 80px;
+}
+
+.inp-form{
+    border-radius: 10px;
+    outline: none;
+    padding: .5rem;
+    width: 100%;
+    border: 0;
+}

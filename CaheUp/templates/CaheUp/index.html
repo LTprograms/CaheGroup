@@ -1,0 +1,204 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+</head>
+<body>
+
+  <div id="myModal" class="mi-modal">
+      <div class="modal-content">
+          <span class="close" id="cerrarModal">&times;</span>
+          <p>Bienvenido a nuestra web. Comienza ya.</p>
+          <a href="#" id="comenzarYa">Comienza Ya</a>
+      </div>
+  </div>
+  
+  <header id="main-header">
+    <nav class="navbar navbar-expand-lg text-white w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">CaheUp</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse w-100 md-d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link link-light active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Lineas de vida</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Biblioteca</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+</header>
+<section class="py-2">
+    <div class="container-fluid w-full">
+        <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="7000">
+                <img src="{% static 'img/QUE ESPERAS APROVECHA Y CERTIFICATE YA.png' %}" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="7000">
+                <img src="{% static 'img/Diseño sin título (8).png' %}" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="7000">
+                <img src="{% static 'img/Diseño sin título (9).png' %}" class="d-block w-100 img-fluid" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 p-2" id="nosotros">
+                <h2>Sobre Nosotros</h2>
+                <p></p>
+                <p>Somos una empresa apasionada por brindar soluciones innovadoras y de alta calidad. Fundada en 2021, hemos estado comprometidos con la excelencia y la satisfacción del cliente.</p>
+                <p>Nuestra misión es que en Cahe Up, nos dedicamos a asegurar la seguridad y excelencia en los entornos laborales a través de certificaciones especializadas. Nuestra misión es liderar en la Certificación de operadores, trabajos en altura y trabajos en caliente, ofreciendo programas rigurosos que cumplen con los más altos estándares de calidad y seguridad.
+                    Nos comprometemos a proporcionar certificaciones actualizadas, fomentar prácticas seguras, adaptarnos a las necesidades cambiantes y brindar un servicio personalizado. Valoramos a cada cliente y trabajamos para elevar los estándares de seguridad en la industria.
+                    En Cahe Up, avanzamos hacia un futuro donde la seguridad es una prioridad innegociable en cada lugar de trabajo. y nuestra visión es En Cahe Up, aspiramos a ser reconocidos como líderes indiscutibles en la Certificación de operadores, trabajos en altura y trabajos en caliente. Nos esforzamos por ser la elección preferida de empresas e individuos que buscan la más alta calidad en formación especializada en seguridad laboral.
+        
+                    Nuestra visión es:
+                    
+                    Ser el referente en programas de certificación, destacando por su rigurosidad y relevancia.
+                    Contribuir de manera significativa a la creación de entornos laborales más seguros y eficientes.
+                    Mantenernos a la vanguardia de la evolución en normativas y prácticas industriales.
+                    Establecer alianzas estratégicas que fortalezcan nuestro impacto y alcance.
+                    Ser reconocidos por la excelencia en el servicio al cliente y la adaptabilidad a sus necesidades.
+                    En Cahe Up."
+                    </p>
+            </div>
+            <div class="col-sm-12 col-md-6 p-2">
+                <div class="valores">
+                    <h2>Nuestros Valores</h2>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Integridad</li>
+                        <li><i class="fas fa-lightbulb"></i> Innovación</li>
+                        <li><i class="fas fa-star"></i> Compromiso con la excelencia</li>
+                        <li><i class="fas fa-users"></i> Trabajo en equipo</li>
+                        <li><i class="fas fa-globe"></i> Respeto a la diversidad</li>
+                    </ul>
+                </div>
+                <div class="estadisticas">
+                    <h2>Estadísticas</h2>
+                    <div class="estadistica">
+                        <div class="numero">150+</div>
+                        <p>Proyectos Completados</p>
+                    </div>
+                    <div class="estadistica">
+                        <div class="numero">99%</div>
+                        <p>Satisfacción del Cliente</p>
+                    </div>
+                    <div class="estadistica">
+                        <div class="numero">50+</div>
+                        <p>Profesionales en el Equipo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 p-2">
+                <div class="equipo">
+                    <h2>Nuestro Equipo</h2>
+                    <p>Nuestro equipo está compuesto por profesionales apasionados y altamente calificados en áreas como [área1], [área2], y [área3]. Trabajamos juntos para ofrecer soluciones excepcionales a nuestros clientes.</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 p-2">
+                <div class="contacto">
+                    <h2>Contacto</h2>
+                    <p>Estamos aquí para ayudarte. Si tienes alguna pregunta o consulta, no dudes en ponerte en contacto con nosotros a través de:</p>
+                    <p><i class="fas fa-envelope"></i> Email:carls.hernandez@cahe-u.pe <a href="mailto:">carls.hernandez@cahe-u.pe</a></p>
+                    <p><i class="fas fa-phone"></i> Teléfono: +51 934 036 758</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Nuestros cursos</h2>
+        <div class="row" id="row-cursos">
+          {% for curso in cursos %}
+          <div class='col-sm-12 col-md-6 col-lg-4'>
+            <div class='curso'>
+              <img src='{{ curso.imagen.url }}' alt='curso {{ curso.id }}'>
+              <h3>{{ curso.nombre }}</h3>
+              <p>{{ curso.descripcion }}</p>
+              <a href='#' class='boton-ver-mas'>Ver Más</a>
+            </div>
+          </div>          
+          {% endfor %}
+        </div>
+    </div>
+    <!-- <div class="container">
+      <div class="row">
+        <h2>Biblioteca</h2>
+        <div class='col-sm-12 col-md-6 col-lg-4'>
+          <div class="libro">
+            <img src="libro1.jpg" alt="Libro 1">
+            <h3>Titulo del Libro 1</h3>
+            <p>Autor: Autor del Libro 1</p>
+            <p>Publicado en: 2023</p>
+            <a href="{% static 'pdf/Introduccion-a-las-fuerzas-y-angulos-de-la-cuerda-en-tension (1).pdf' %}" class="boton-descargar" download>Descargar</a>
+          </div>
+        </div>
+        <div class='col-sm-12 col-md-6 col-lg-4'>
+          <div class="libro">
+            <img src="libro2.jpg" alt="Libro 2">
+            <h3>Titulo del Libro 2</h3>
+            <p>Autor: Autor del Libro 2</p>
+            <p>Publicado en: 2022</p>
+            <a href="{% static 'pdf/Untitled (1).pdf' %}" class="boton-descargar" download>Descargar</a>
+          </div>
+        </div>
+
+        <div class='col-sm-12 col-md-6 col-lg-4'>
+          <div class="libro">
+            <img src="libro3.jpg" alt="Libro 3">
+            <h3>Titulo del Libro 3</h3>
+            <p>Autor: Autor del Libro 3</p>
+            <p>Publicado en: 2021</p>
+            <a href="{% static 'pdf/Untitled.pdf' %}" class="boton-descargar" download>Descargar</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="{% static 'js/script.js' %}"></script>
+
+</body>
+</html>

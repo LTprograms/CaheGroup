@@ -1,0 +1,34 @@
+:root {
+    --refrimotors-blue: rgb(19, 74, 144);
+    --refrimotors-blue-light: rgb(25, 87, 169);
+    --refrimotors-red: rgb(163, 32, 38);
+    --refrimotors-yellow: rgb(237, 197, 13);
+}
+
+.text-blue-refrimotors{color: var(--refrimotors-blue);}
+.text-blue-light-refrimotors{color: var(--refrimotors-blue-light);}
+.text-yellow-refrimotors{color: var(--refrimotors-yellow);}
+.text-red-refrimotors{color: var(--refrimotors-red);}
+
+
+.bg-blue-refrimotors{background-color: var(--refrimotors-blue);}
+.bg-yellow-refrimotors{background-color: var(--refrimotors-yellow);}
+.bg-red-refrimotors{background-color: var(--refrimotors-red);}
+
+.img-fondo {
+    background-image: url("../img/WhatsApp Image 2024-02-02 at 6.43.14 PM (3).jpg");
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+.productos-refrimotors img{
+    border: 3px solid var(--refrimotors-yellow);
+    border-radius: 16px;
+}
+
+.contact td {
+    padding: 1rem;
+}
+.contact form {
+    border-radius: 16px;
+}
